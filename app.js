@@ -4,8 +4,8 @@ let rndno2=-1;
 let img1=document.querySelector(".img1")
 img1.addEventListener('click',()=>{
     rndno1=Math.floor(Math.random() * 6)+1;
-var audio=new Audio('mixkit-arcade-retro-game-over-213.wav')
-audio.play();
+// var audio=new Audio('mixkit-arcade-retro-game-over-213.wav')
+// audio.play();
     console.log(rndno1);
     img1.src=`images/dice${rndno1}.png`;
     let title=document.querySelector("h1");
