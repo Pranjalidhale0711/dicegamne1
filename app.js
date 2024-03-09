@@ -44,5 +44,5 @@ if(rndno1==rndno2)
     title.textContent='Draw';
 }
 });
-console.log("rnd1"+rndno1)
-console.log("Rndd2"+rndno2)
+// console.log("rnd1"+rndno1)
+// console.log("Rndd2"+rndno2)
